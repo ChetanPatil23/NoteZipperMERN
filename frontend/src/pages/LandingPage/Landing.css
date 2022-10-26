@@ -1,0 +1,57 @@
+.main {
+  color: black;
+  min-height: 93vh;
+  display: flex;
+  align-items: center;
+  background-image: url("https://zettelkasten.de/img/blog/201309030945_reading-notes.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.landing__Heading {
+  color: rgb(31, 21, 121);
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  width: 600px;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 65px;
+}
+.subtitle {
+  padding-top: 15px;
+  font-size: 25px;
+}
+
+.landingbtn {
+  width: 150px;
+  height: 35px;
+  margin: 0 10px;
+}
+
+.btngrp {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media only screen and (min-width: 1200px) {
+  .btngrp {
+    padding: 0 200px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .btngrp {
+    padding: 0 100px;
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 45px;
+  }
+}

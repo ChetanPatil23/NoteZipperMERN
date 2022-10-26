@@ -7,7 +7,9 @@ import Form from "react-bootstrap/Form";
 
 const Header = () => {
   return (
-    <Navbar bg="primary" expand="lg" variant="dark">
+    <Navbar bg="primary" expand="lg" variant="dark" 
+    // style={{position:"fixed",top:0,zIndex:"1",width:"100%"}}
+    >
       <Container>
         <Navbar.Brand href="/">Notes Zipper</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -26,7 +28,6 @@ const Header = () => {
             <Nav.Link href="/notes">My Notes</Nav.Link>
             <NavDropdown title="Chetan Patil" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">My Profile</NavDropdown.Item>
-              <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">Logout</NavDropdown.Item>
             </NavDropdown>
           </Nav>
